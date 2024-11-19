@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primeira-div {
+    background-color: #6495ED;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 27.6px;
+    padding: 4rem;
+ }
+      
+
+h1 {
+    font-size: 125px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+   color: #191970;
+   font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    font-weight: 400;
+    margin-top: -150px;
+}
+
+.segunda-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.segunda-div p{
+    width: 80%;
+    font-weight: bold;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+
+.terceira-div{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.terceira-div p{
+    justify-content: left;
+    text-align: justify;
+    width: 50%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.terceira-div img{
+    height: 350px;
+    margin: 15px;
+    width: 50%;
+
+}
+
+.quarta-div{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.quarta-div p{
+    justify-content: right;
+    text-align: justify;
+    width: 50%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.quarta-div img{
+    height: 350px;
+    margin: 15px;
+    width: 50%;
+}
+
+.quinta-div{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.quinta-div p{
+    justify-content: right;
+    text-align: justify;
+    width: 50%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.quinta-div img{
+    height: 350px;
+    margin: 15px;
+    width: 50%;
+}
+
+img {
+    display: flex;
+    margin-left: -35px;
+    margin-top: -45px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.divisor {
+    background-color: #fff;
+    height: 3px;
+    margin: 2px 0;
+}
+
+.divisor::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    right: 100%;
+    left: 100%;
+    transform: translateX(-50%);
+    top: -4px;
+}
+
+
+.ultimo{
+    margin-bottom: -50px;
+}
+
+p{
+    font-family: Arial, sans-serif; 
+}
+
